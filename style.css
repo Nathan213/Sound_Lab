@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    background-image: none;
+    transition: 0.5s linear all;
+    width: 100%;
+    height: 100%;
+  }
+
+  .initiate {
+    color: black;
+    background-color: whitesmoke;
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 20%;
+    left: 43%;
+  }
+  
+  .wingsinteractable {
+    transition: 1s linear all;
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 45%;
+    left: 20%;
+    background-image: url("wings.png");
+    background-size: 100%;
+  }
+  .dreamsinteractable {
+    transition: 1s linear all;
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 45%;
+    left: 45%;
+    background-image: url("dreams.jpeg");
+    background-size: 100%;
+  }
+
+  .goneinteractable {
+    transition: 1s linear all;
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 45%;
+    left: 70%;
+    background-image: url("gone.jpeg");
+    background-size: 100%;
+  }
